@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF742A8C1B6BCB980029289B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF742A8B1B6BCB980029289B /* AppDelegate.swift */; };
+		FF742A8E1B6BCB980029289B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF742A8D1B6BCB980029289B /* ViewController.swift */; };
+		FF742A911B6BCB980029289B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF742A8F1B6BCB980029289B /* Main.storyboard */; };
+		FF742A931B6BCB980029289B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF742A921B6BCB980029289B /* Assets.xcassets */; };
+		FF742A961B6BCB980029289B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF742A941B6BCB980029289B /* LaunchScreen.storyboard */; };
+		FF742AA11B6BCB980029289B /* BLE_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF742AA01B6BCB980029289B /* BLE_ChatTests.swift */; };
+		FF742AAC1B6BCB980029289B /* BLE_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF742AAB1B6BCB980029289B /* BLE_ChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF742A9D1B6BCB980029289B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF742A801B6BCB980029289B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF742A871B6BCB980029289B;
+			remoteInfo = "BLE-Chat";
+		};
+		FF742AA81B6BCB980029289B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF742A801B6BCB980029289B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF742A871B6BCB980029289B;
+			remoteInfo = "BLE-Chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF742A881B6BCB980029289B /* BLE-Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLE-Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF742A8B1B6BCB980029289B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF742A8D1B6BCB980029289B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF742A901B6BCB980029289B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF742A921B6BCB980029289B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF742A951B6BCB980029289B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF742A971B6BCB980029289B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF742A9C1B6BCB980029289B /* BLE-ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLE-ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF742AA01B6BCB980029289B /* BLE_ChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLE_ChatTests.swift; sourceTree = "<group>"; };
+		FF742AA21B6BCB980029289B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF742AA71B6BCB980029289B /* BLE-ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLE-ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF742AAB1B6BCB980029289B /* BLE_ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLE_ChatUITests.swift; sourceTree = "<group>"; };
+		FF742AAD1B6BCB980029289B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF742A851B6BCB980029289B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF742A991B6BCB980029289B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF742AA41B6BCB980029289B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF742A7F1B6BCB980029289B = {
+			isa = PBXGroup;
+			children = (
+				FF742A8A1B6BCB980029289B /* BLE-Chat */,
+				FF742A9F1B6BCB980029289B /* BLE-ChatTests */,
+				FF742AAA1B6BCB980029289B /* BLE-ChatUITests */,
+				FF742A891B6BCB980029289B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF742A891B6BCB980029289B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF742A881B6BCB980029289B /* BLE-Chat.app */,
+				FF742A9C1B6BCB980029289B /* BLE-ChatTests.xctest */,
+				FF742AA71B6BCB980029289B /* BLE-ChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF742A8A1B6BCB980029289B /* BLE-Chat */ = {
+			isa = PBXGroup;
+			children = (
+				FF742A8B1B6BCB980029289B /* AppDelegate.swift */,
+				FF742A8D1B6BCB980029289B /* ViewController.swift */,
+				FF742A8F1B6BCB980029289B /* Main.storyboard */,
+				FF742A921B6BCB980029289B /* Assets.xcassets */,
+				FF742A941B6BCB980029289B /* LaunchScreen.storyboard */,
+				FF742A971B6BCB980029289B /* Info.plist */,
+			);
+			path = "BLE-Chat";
+			sourceTree = "<group>";
+		};
+		FF742A9F1B6BCB980029289B /* BLE-ChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF742AA01B6BCB980029289B /* BLE_ChatTests.swift */,
+				FF742AA21B6BCB980029289B /* Info.plist */,
+			);
+			path = "BLE-ChatTests";
+			sourceTree = "<group>";
+		};
+		FF742AAA1B6BCB980029289B /* BLE-ChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF742AAB1B6BCB980029289B /* BLE_ChatUITests.swift */,
+				FF742AAD1B6BCB980029289B /* Info.plist */,
+			);
+			path = "BLE-ChatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF742A871B6BCB980029289B /* BLE-Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF742AB01B6BCB980029289B /* Build configuration list for PBXNativeTarget "BLE-Chat" */;
+			buildPhases = (
+				FF742A841B6BCB980029289B /* Sources */,
+				FF742A851B6BCB980029289B /* Frameworks */,
+				FF742A861B6BCB980029289B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BLE-Chat";
+			productName = "BLE-Chat";
+			productReference = FF742A881B6BCB980029289B /* BLE-Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF742A9B1B6BCB980029289B /* BLE-ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF742AB31B6BCB980029289B /* Build configuration list for PBXNativeTarget "BLE-ChatTests" */;
+			buildPhases = (
+				FF742A981B6BCB980029289B /* Sources */,
+				FF742A991B6BCB980029289B /* Frameworks */,
+				FF742A9A1B6BCB980029289B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF742A9E1B6BCB980029289B /* PBXTargetDependency */,
+			);
+			name = "BLE-ChatTests";
+			productName = "BLE-ChatTests";
+			productReference = FF742A9C1B6BCB980029289B /* BLE-ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF742AA61B6BCB980029289B /* BLE-ChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF742AB61B6BCB980029289B /* Build configuration list for PBXNativeTarget "BLE-ChatUITests" */;
+			buildPhases = (
+				FF742AA31B6BCB980029289B /* Sources */,
+				FF742AA41B6BCB980029289B /* Frameworks */,
+				FF742AA51B6BCB980029289B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF742AA91B6BCB980029289B /* PBXTargetDependency */,
+			);
+			name = "BLE-ChatUITests";
+			productName = "BLE-ChatUITests";
+			productReference = FF742AA71B6BCB980029289B /* BLE-ChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF742A801B6BCB980029289B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Maiko Wakatsuki";
+				TargetAttributes = {
+					FF742A871B6BCB980029289B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FF742A9B1B6BCB980029289B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FF742A871B6BCB980029289B;
+					};
+					FF742AA61B6BCB980029289B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FF742A871B6BCB980029289B;
+					};
+				};
+			};
+			buildConfigurationList = FF742A831B6BCB980029289B /* Build configuration list for PBXProject "BLE-Chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF742A7F1B6BCB980029289B;
+			productRefGroup = FF742A891B6BCB980029289B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF742A871B6BCB980029289B /* BLE-Chat */,
+				FF742A9B1B6BCB980029289B /* BLE-ChatTests */,
+				FF742AA61B6BCB980029289B /* BLE-ChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF742A861B6BCB980029289B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF742A961B6BCB980029289B /* LaunchScreen.storyboard in Resources */,
+				FF742A931B6BCB980029289B /* Assets.xcassets in Resources */,
+				FF742A911B6BCB980029289B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF742A9A1B6BCB980029289B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF742AA51B6BCB980029289B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF742A841B6BCB980029289B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF742A8E1B6BCB980029289B /* ViewController.swift in Sources */,
+				FF742A8C1B6BCB980029289B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF742A981B6BCB980029289B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF742AA11B6BCB980029289B /* BLE_ChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF742AA31B6BCB980029289B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF742AAC1B6BCB980029289B /* BLE_ChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF742A9E1B6BCB980029289B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF742A871B6BCB980029289B /* BLE-Chat */;
+			targetProxy = FF742A9D1B6BCB980029289B /* PBXContainerItemProxy */;
+		};
+		FF742AA91B6BCB980029289B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF742A871B6BCB980029289B /* BLE-Chat */;
+			targetProxy = FF742AA81B6BCB980029289B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF742A8F1B6BCB980029289B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF742A901B6BCB980029289B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF742A941B6BCB980029289B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF742A951B6BCB980029289B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF742AAE1B6BCB980029289B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF742AAF1B6BCB980029289B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF742AB11B6BCB980029289B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BLE-Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BLE-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF742AB21B6BCB980029289B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BLE-Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BLE-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF742AB41B6BCB980029289B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BLE-ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BLE-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLE-Chat.app/BLE-Chat";
+			};
+			name = Debug;
+		};
+		FF742AB51B6BCB980029289B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BLE-ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BLE-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLE-Chat.app/BLE-Chat";
+			};
+			name = Release;
+		};
+		FF742AB71B6BCB980029289B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BLE-ChatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BLE-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BLE-Chat";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FF742AB81B6BCB980029289B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BLE-ChatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BLE-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BLE-Chat";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF742A831B6BCB980029289B /* Build configuration list for PBXProject "BLE-Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF742AAE1B6BCB980029289B /* Debug */,
+				FF742AAF1B6BCB980029289B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF742AB01B6BCB980029289B /* Build configuration list for PBXNativeTarget "BLE-Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF742AB11B6BCB980029289B /* Debug */,
+				FF742AB21B6BCB980029289B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF742AB31B6BCB980029289B /* Build configuration list for PBXNativeTarget "BLE-ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF742AB41B6BCB980029289B /* Debug */,
+				FF742AB51B6BCB980029289B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF742AB61B6BCB980029289B /* Build configuration list for PBXNativeTarget "BLE-ChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF742AB71B6BCB980029289B /* Debug */,
+				FF742AB81B6BCB980029289B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF742A801B6BCB980029289B /* Project object */;
+}
