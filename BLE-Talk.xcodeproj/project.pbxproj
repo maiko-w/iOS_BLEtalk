@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFFCDF5E1B6FADAB00ECA1E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCDF5D1B6FADAB00ECA1E6 /* AppDelegate.swift */; };
+		FFFCDF601B6FADAB00ECA1E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCDF5F1B6FADAB00ECA1E6 /* ViewController.swift */; };
+		FFFCDF631B6FADAB00ECA1E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFFCDF611B6FADAB00ECA1E6 /* Main.storyboard */; };
+		FFFCDF651B6FADAB00ECA1E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFCDF641B6FADAB00ECA1E6 /* Assets.xcassets */; };
+		FFFCDF681B6FADAB00ECA1E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFFCDF661B6FADAB00ECA1E6 /* LaunchScreen.storyboard */; };
+		FFFCDF731B6FADAB00ECA1E6 /* BLE_TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCDF721B6FADAB00ECA1E6 /* BLE_TalkTests.swift */; };
+		FFFCDF7E1B6FADAB00ECA1E6 /* BLE_TalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCDF7D1B6FADAB00ECA1E6 /* BLE_TalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFFCDF6F1B6FADAB00ECA1E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFFCDF521B6FADAB00ECA1E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFFCDF591B6FADAB00ECA1E6;
+			remoteInfo = "BLE-Talk";
+		};
+		FFFCDF7A1B6FADAB00ECA1E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFFCDF521B6FADAB00ECA1E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFFCDF591B6FADAB00ECA1E6;
+			remoteInfo = "BLE-Talk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFFCDF5A1B6FADAB00ECA1E6 /* BLE-Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLE-Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFCDF5D1B6FADAB00ECA1E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFFCDF5F1B6FADAB00ECA1E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFFCDF621B6FADAB00ECA1E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFFCDF641B6FADAB00ECA1E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFFCDF671B6FADAB00ECA1E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFFCDF691B6FADAB00ECA1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFCDF6E1B6FADAB00ECA1E6 /* BLE-TalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLE-TalkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFCDF721B6FADAB00ECA1E6 /* BLE_TalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLE_TalkTests.swift; sourceTree = "<group>"; };
+		FFFCDF741B6FADAB00ECA1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFCDF791B6FADAB00ECA1E6 /* BLE-TalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLE-TalkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFCDF7D1B6FADAB00ECA1E6 /* BLE_TalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLE_TalkUITests.swift; sourceTree = "<group>"; };
+		FFFCDF7F1B6FADAB00ECA1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFFCDF571B6FADAB00ECA1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFCDF6B1B6FADAB00ECA1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFCDF761B6FADAB00ECA1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFFCDF511B6FADAB00ECA1E6 = {
+			isa = PBXGroup;
+			children = (
+				FFFCDF5C1B6FADAB00ECA1E6 /* BLE-Talk */,
+				FFFCDF711B6FADAB00ECA1E6 /* BLE-TalkTests */,
+				FFFCDF7C1B6FADAB00ECA1E6 /* BLE-TalkUITests */,
+				FFFCDF5B1B6FADAB00ECA1E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFFCDF5B1B6FADAB00ECA1E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFFCDF5A1B6FADAB00ECA1E6 /* BLE-Talk.app */,
+				FFFCDF6E1B6FADAB00ECA1E6 /* BLE-TalkTests.xctest */,
+				FFFCDF791B6FADAB00ECA1E6 /* BLE-TalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFFCDF5C1B6FADAB00ECA1E6 /* BLE-Talk */ = {
+			isa = PBXGroup;
+			children = (
+				FFFCDF5D1B6FADAB00ECA1E6 /* AppDelegate.swift */,
+				FFFCDF5F1B6FADAB00ECA1E6 /* ViewController.swift */,
+				FFFCDF611B6FADAB00ECA1E6 /* Main.storyboard */,
+				FFFCDF641B6FADAB00ECA1E6 /* Assets.xcassets */,
+				FFFCDF661B6FADAB00ECA1E6 /* LaunchScreen.storyboard */,
+				FFFCDF691B6FADAB00ECA1E6 /* Info.plist */,
+			);
+			path = "BLE-Talk";
+			sourceTree = "<group>";
+		};
+		FFFCDF711B6FADAB00ECA1E6 /* BLE-TalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFFCDF721B6FADAB00ECA1E6 /* BLE_TalkTests.swift */,
+				FFFCDF741B6FADAB00ECA1E6 /* Info.plist */,
+			);
+			path = "BLE-TalkTests";
+			sourceTree = "<group>";
+		};
+		FFFCDF7C1B6FADAB00ECA1E6 /* BLE-TalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFFCDF7D1B6FADAB00ECA1E6 /* BLE_TalkUITests.swift */,
+				FFFCDF7F1B6FADAB00ECA1E6 /* Info.plist */,
+			);
+			path = "BLE-TalkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFFCDF591B6FADAB00ECA1E6 /* BLE-Talk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFCDF821B6FADAB00ECA1E6 /* Build configuration list for PBXNativeTarget "BLE-Talk" */;
+			buildPhases = (
+				FFFCDF561B6FADAB00ECA1E6 /* Sources */,
+				FFFCDF571B6FADAB00ECA1E6 /* Frameworks */,
+				FFFCDF581B6FADAB00ECA1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BLE-Talk";
+			productName = "BLE-Talk";
+			productReference = FFFCDF5A1B6FADAB00ECA1E6 /* BLE-Talk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFFCDF6D1B6FADAB00ECA1E6 /* BLE-TalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFCDF851B6FADAB00ECA1E6 /* Build configuration list for PBXNativeTarget "BLE-TalkTests" */;
+			buildPhases = (
+				FFFCDF6A1B6FADAB00ECA1E6 /* Sources */,
+				FFFCDF6B1B6FADAB00ECA1E6 /* Frameworks */,
+				FFFCDF6C1B6FADAB00ECA1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFFCDF701B6FADAB00ECA1E6 /* PBXTargetDependency */,
+			);
+			name = "BLE-TalkTests";
+			productName = "BLE-TalkTests";
+			productReference = FFFCDF6E1B6FADAB00ECA1E6 /* BLE-TalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFFCDF781B6FADAB00ECA1E6 /* BLE-TalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFCDF881B6FADAB00ECA1E6 /* Build configuration list for PBXNativeTarget "BLE-TalkUITests" */;
+			buildPhases = (
+				FFFCDF751B6FADAB00ECA1E6 /* Sources */,
+				FFFCDF761B6FADAB00ECA1E6 /* Frameworks */,
+				FFFCDF771B6FADAB00ECA1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFFCDF7B1B6FADAB00ECA1E6 /* PBXTargetDependency */,
+			);
+			name = "BLE-TalkUITests";
+			productName = "BLE-TalkUITests";
+			productReference = FFFCDF791B6FADAB00ECA1E6 /* BLE-TalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFFCDF521B6FADAB00ECA1E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Maiko Wakatsuki";
+				TargetAttributes = {
+					FFFCDF591B6FADAB00ECA1E6 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FFFCDF6D1B6FADAB00ECA1E6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FFFCDF591B6FADAB00ECA1E6;
+					};
+					FFFCDF781B6FADAB00ECA1E6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FFFCDF591B6FADAB00ECA1E6;
+					};
+				};
+			};
+			buildConfigurationList = FFFCDF551B6FADAB00ECA1E6 /* Build configuration list for PBXProject "BLE-Talk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFFCDF511B6FADAB00ECA1E6;
+			productRefGroup = FFFCDF5B1B6FADAB00ECA1E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFFCDF591B6FADAB00ECA1E6 /* BLE-Talk */,
+				FFFCDF6D1B6FADAB00ECA1E6 /* BLE-TalkTests */,
+				FFFCDF781B6FADAB00ECA1E6 /* BLE-TalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFFCDF581B6FADAB00ECA1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFCDF681B6FADAB00ECA1E6 /* LaunchScreen.storyboard in Resources */,
+				FFFCDF651B6FADAB00ECA1E6 /* Assets.xcassets in Resources */,
+				FFFCDF631B6FADAB00ECA1E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFCDF6C1B6FADAB00ECA1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFCDF771B6FADAB00ECA1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFFCDF561B6FADAB00ECA1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFCDF601B6FADAB00ECA1E6 /* ViewController.swift in Sources */,
+				FFFCDF5E1B6FADAB00ECA1E6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFCDF6A1B6FADAB00ECA1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFCDF731B6FADAB00ECA1E6 /* BLE_TalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFCDF751B6FADAB00ECA1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFCDF7E1B6FADAB00ECA1E6 /* BLE_TalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFFCDF701B6FADAB00ECA1E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFFCDF591B6FADAB00ECA1E6 /* BLE-Talk */;
+			targetProxy = FFFCDF6F1B6FADAB00ECA1E6 /* PBXContainerItemProxy */;
+		};
+		FFFCDF7B1B6FADAB00ECA1E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFFCDF591B6FADAB00ECA1E6 /* BLE-Talk */;
+			targetProxy = FFFCDF7A1B6FADAB00ECA1E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFFCDF611B6FADAB00ECA1E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFCDF621B6FADAB00ECA1E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFFCDF661B6FADAB00ECA1E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFCDF671B6FADAB00ECA1E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFFCDF801B6FADAB00ECA1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFFCDF811B6FADAB00ECA1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFFCDF831B6FADAB00ECA1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BLE-Talk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maikowakatsuki.BLE-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b0800bdb-29aa-422f-99d8-e708423a177b";
+			};
+			name = Debug;
+		};
+		FFFCDF841B6FADAB00ECA1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Maiko Wakatsuki (V248B875QM)";
+				INFOPLIST_FILE = "BLE-Talk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maikowakatsuki.BLE-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b0800bdb-29aa-422f-99d8-e708423a177b";
+			};
+			name = Release;
+		};
+		FFFCDF861B6FADAB00ECA1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BLE-TalkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maikowakatsuki.BLE-TalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLE-Talk.app/BLE-Talk";
+			};
+			name = Debug;
+		};
+		FFFCDF871B6FADAB00ECA1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BLE-TalkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maikowakatsuki.BLE-TalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLE-Talk.app/BLE-Talk";
+			};
+			name = Release;
+		};
+		FFFCDF891B6FADAB00ECA1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BLE-TalkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maikowakatsuki.BLE-TalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BLE-Talk";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FFFCDF8A1B6FADAB00ECA1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BLE-TalkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maikowakatsuki.BLE-TalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BLE-Talk";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFFCDF551B6FADAB00ECA1E6 /* Build configuration list for PBXProject "BLE-Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFCDF801B6FADAB00ECA1E6 /* Debug */,
+				FFFCDF811B6FADAB00ECA1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFCDF821B6FADAB00ECA1E6 /* Build configuration list for PBXNativeTarget "BLE-Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFCDF831B6FADAB00ECA1E6 /* Debug */,
+				FFFCDF841B6FADAB00ECA1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFCDF851B6FADAB00ECA1E6 /* Build configuration list for PBXNativeTarget "BLE-TalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFCDF861B6FADAB00ECA1E6 /* Debug */,
+				FFFCDF871B6FADAB00ECA1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFCDF881B6FADAB00ECA1E6 /* Build configuration list for PBXNativeTarget "BLE-TalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFCDF891B6FADAB00ECA1E6 /* Debug */,
+				FFFCDF8A1B6FADAB00ECA1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFFCDF521B6FADAB00ECA1E6 /* Project object */;
+}
